@@ -1,0 +1,19 @@
+{
+  "name": "upper-laundry-system",
+  "version": "1.0.0",
+  "description": "A web-based application for booking laundry services.",
+  "main": "src/js/script.js",
+  "scripts": {
+    "start": "live-server src/html",
+    "build": "echo 'No build step defined.'"
+  },
+  "keywords": ["laundry", "booking", "web-app"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
